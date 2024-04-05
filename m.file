@@ -1,0 +1,12 @@
+% Read the image
+img = imread('tree_image.jpg');
+
+% Convert the image to black and white
+bw_img = im2bw(img);
+
+% Analyze the edges of the image
+edge_img = edge(bw_img, 'Sobel');
+
+% Display the resulting image
+imshow(edge_img);
+title('Detected Tree Edges');
