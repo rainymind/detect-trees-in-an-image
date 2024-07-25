@@ -1,4 +1,4 @@
-% Read the image;215140
+% Read the image;
 img = imread('tree_image.jpg');
 
 % Convert the image to black and white;
