@@ -1,4 +1,4 @@
-% 01
+% 012
 % Read the image;
 img = imread('tree_image.jpg');
 
